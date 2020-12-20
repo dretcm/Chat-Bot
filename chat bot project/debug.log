@@ -1,0 +1,16 @@
+[1217/195412.432:ERROR:file_io_win.cc(180)] CreateFile C:\Users\USUARIO\AppData\Local\Temp\scoped_dir5848_1636605827\Crashpad\settings.dat: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
+[1217/200953.618:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1217/200953.597:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1217/200953.647:ERROR:exception_snapshot_win.cc(99)] thread ID 13748 not found in process
+[1217/200953.647:ERROR:exception_snapshot_win.cc(99)] thread ID 4584 not found in process
+[1217/203359.696:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1217/203359.697:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1217/203359.697:ERROR:exception_snapshot_win.cc(99)] thread ID 8460 not found in process
+[1217/203359.715:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1217/203359.715:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1217/203359.715:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1217/203359.715:ERROR:process_reader_win.cc(151)] SuspendThread: Acceso denegado. (0x5)
+[1217/203359.715:ERROR:process_reader_win.cc(123)] NtOpenThread: {Acceso denegado} Un proceso ha solicitado acceso a un objeto, pero no se le han concedido esos derechos de acceso. (0xc0000022)
+[1217/203359.715:ERROR:exception_snapshot_win.cc(99)] thread ID 6848 not found in process
+[1217/204043.880:ERROR:file_io_win.cc(180)] CreateFile C:\Users\USUARIO\AppData\Local\Temp\scoped_dir14264_1823765151\Crashpad\settings.dat: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
+[1217/204413.579:ERROR:file_io_win.cc(180)] CreateFile C:\Users\USUARIO\AppData\Local\Temp\scoped_dir12496_328035645\Crashpad\settings.dat: El proceso no tiene acceso al archivo porque está siendo utilizado por otro proceso. (0x20)
