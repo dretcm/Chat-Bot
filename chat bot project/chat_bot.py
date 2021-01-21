@@ -9,14 +9,12 @@ import tensorflow as tf
 import random
 import json
 import pickle
+
 import time
 from selenium import webdriver
-import numpy as np
+import selenium
 
-from simon.accounts.pages import LoginPage
-from simon.chat.pages import ChatPage
-from simon.chats.pages import PanePage
-from simon.header.pages import HeaderPage
+import numpy as np
 
 from keras.models import Sequential
 from keras.layers import Dense, Activation
@@ -134,25 +132,18 @@ class Bot:
 
             return random.choice(responses)
 
+        
 MR = Bot()
 
-from selenium import webdriver 
-import time
-import selenium
-
-
 url = 'https://web.whatsapp.com/'
-
-
 browser = webdriver.Chrome('chromedriver.exe')
 browser.get(url)
 
 
-time.sleep(8) # 10 secons
+time.sleep(10) # 10 secons
 
-#user = 'diego norlax'
-user = 'Al'
-message = 'spam del bueno, dale like prro'
+
+user = 'name of contact or number directory'
 
 
 def search(ur, bwr):
