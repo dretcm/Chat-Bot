@@ -8,8 +8,6 @@ from nltk.stem.lancaster import LancasterStemmer
 #nltk.download('punkt')
 stemmer = LancasterStemmer()
 
-import numpy
-# import tflearn
 import tensorflow as tf
 import random
 import json
@@ -74,8 +72,8 @@ class Bot:
                 output.append(output_row)
 
 
-            self.training = numpy.array(training)
-            self.output = numpy.array(output)
+            self.training = np.array(training)
+            self.output = np.array(output)
 
             with open("data.pickle", "wb") as f:
                 pickle.dump((self.words, self.labels, self.training, self.output), f)
@@ -126,7 +124,7 @@ class Bot:
         if np.max(results)*100 < float(90):
             return random.choice(["no te entiendo","podrias gestionar mejor tus palabras :)","what?"])
         else:
-            results_index = numpy.argmax(results)
+            results_index = np.argmax(results)
             tag = self.labels[results_index]
 
             for tg in self.data["intents"]:
